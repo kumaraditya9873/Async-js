@@ -6,14 +6,14 @@
 //  add onions boil for 5 min
 // Browser !!!!! Fetch Data , get Geolocation,setTimeOut,setTimer etc
 
-boilWater(10000);
-console.log(`chop carrots`);
+// boilWater(10000);
+// console.log(`chop carrots`);
 
-function boilWater(time) {
-  console.log(`boiling...`);
-  // setting setTimeout function
-  setTimeout(() => {
-    ///////this is syntax of setTimeout
-    console.log(`done`);
-  }, time);
-}
+// function boilWater(time) {
+//   console.log(`boiling...`);
+//   // setting setTimeout function
+//   setTimeout(() => {
+//     ///////this is syntax of setTimeout
+//     console.log(`done`);
+//   }, time);
+// }

@@ -5,17 +5,19 @@ const heading3 = document.querySelector(".three");
 
 const btn = document.querySelector(".btn");
 
-btn.addEventListener("click", () => {
-  setTimeout(() => {
-    heading1.style.color = "red";
-  }, 1000);
-  setTimeout(() => {
-    heading2.style.color = "green";
-  }, 2000);
-  setTimeout(() => {
-    heading3.style.color = "blue";
-  }, 1000);
-});
+// btn.addEventListener("click", () => {
+//   setTimeout(() => {
+//     heading1.style.color = "red";
+//   }, 1000);
+//   setTimeout(() => {
+//     heading2.style.color = "green";
+//   }, 2000);
+//   setTimeout(() => {
+//     heading3.style.color = "blue";
+//   }, 1000);
+// });
+
+// callback hell
 
 btn.addEventListener("click", () => {
   setTimeout(() => {
